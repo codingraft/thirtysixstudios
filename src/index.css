@@ -1,0 +1,31 @@
+
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('./fonts/PPNeueMontreal-regular.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  /* background-color: #fd2c2a; */
+  background-color: #000;
+  color: #fff;
+}
+canvas {
+pointer-events: none;
+}
+.growing {
+  /* transition: all 0.5s ease-in-out; */
+  background-color: #fd2c2a;
+}
+.cursor {
+  background-color: #fd2c2a;
+}
+.heading {
+  cursor: pointer;
+}
